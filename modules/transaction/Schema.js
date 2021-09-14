@@ -1,6 +1,9 @@
 const typeDefs = `
   type Transaction {
       id: ID!
+      users: [User]
+      transactionAmm: Int!
+      transactiondetails: [Product]
   }
 `;
 

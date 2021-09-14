@@ -5,7 +5,7 @@ const typeDefs = `
         productAmm: Int!
     }
 
-    type Mutation{
+    type Mutation {
         inputTransactionDetail(input: inputTransactionDetails!): Transaction
     }
                     `

@@ -1,5 +1,5 @@
 const typeDefs = `
-    type Query{
+    type Query {
         users: [User!]!
     }
 `

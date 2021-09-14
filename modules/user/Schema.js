@@ -1,5 +1,5 @@
 const typeDefs = `
-  type User{
+  type User {
     id:ID!
     firstName:String!
     lastName: String!

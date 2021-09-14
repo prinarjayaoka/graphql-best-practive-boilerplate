@@ -1,12 +1,12 @@
 
 const typeDefs = `
-    input InputProduct{
+    input InputProduct {
         productName: String!
         productPrice: Int!
         productStock: Int!
     }
 
-    type Mutation{
+    type Mutation {
         createProduct(input: InputProduct!): Product
         deleteProduct(id:ID!) : [Product!]!
     }

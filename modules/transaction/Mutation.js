@@ -5,7 +5,7 @@ const typeDefs = `
         transactionAmm: Int!
     }
 
-    type Mutation{
+    type Mutation {
         inputTransaction(input: inputTransaction!): Transaction
     }
                     `

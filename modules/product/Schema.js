@@ -1,5 +1,5 @@
 const typeDefs = `
-  type Product{
+  type Product {
     id:ID!
     productName:String!
     productPrice: Int!

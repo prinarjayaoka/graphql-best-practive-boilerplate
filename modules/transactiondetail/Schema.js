@@ -2,7 +2,6 @@ const typeDefs = `
   type TransactionDetail {
       id: ID!
   }
-
 `;
 
 const resolvers = {}

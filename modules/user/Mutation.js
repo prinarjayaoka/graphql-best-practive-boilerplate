@@ -7,7 +7,7 @@ const typeDefs = `
         password: String!
     }
 
-    type Mutation{
+    type Mutation {
         createUser(input: inputUser!): User
     }
                     `
